@@ -62,7 +62,6 @@ else()
     set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -s USE_PTHREADS=1 \
                                                      -s DISABLE_EXCEPTION_CATCHING=0 \
                                                      -s USE_BOOST_HEADERS=1 \
-                                                     -Wno-unqualified-std-cast-call \
                                                      -Wno-unused-but-set-variable")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-unused-command-line-argument")
   endif()
